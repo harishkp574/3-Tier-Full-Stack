@@ -1,14 +1,15 @@
-node{
-stage{'build'}
+node
 {
-echo "building the app"
+stage('build')
+{
+echo 'building the app'
 }
-stage {'test'}
+stage('test')
 {
-echo "testing the app"
+echo 'testing the app'
 }
-stage{'deploy'}
+stage('deploy')
 {
-echo "deploy the app"
+echo 'deploy the app'
 }
 }
