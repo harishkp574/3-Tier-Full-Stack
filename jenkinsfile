@@ -1,0 +1,14 @@
+node{
+stage{'build'}
+{
+echo "building the app"
+}
+stage {'test'}
+{
+echo "testing the app"
+}
+stage{'deploy'}
+{
+echo "deploy the app"
+}
+}
